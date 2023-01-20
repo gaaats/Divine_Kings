@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gggggggggg"
+    android:layout_height="match_parent"
+    tools:context=".fraggm.StarrtttFragment">
+
+
+
+    <ImageView
+        android:id="@+id/img_el1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ggg1"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_50fgrr"
+        app:layout_constraintEnd_toStartOf="@id/img_el2"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt" />
+
+
+    <ImageView
+        android:id="@+id/img_el2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ggg2"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_50fgrr"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintStart_toEndOf="@id/img_el1" />
+
+    <ImageView
+        android:id="@+id/img_11111"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:rotation="12"
+        android:src="@drawable/rrrrrrr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_mechanicerfgt"
+        app:layout_constraintEnd_toStartOf="@id/img_2222"
+        app:layout_constraintStart_toEndOf="@id/guideline_vert_05gt" />
+
+    <ImageView
+        android:id="@+id/img_2222"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/kkkkkkk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_mechanicerfgt"
+        app:layout_constraintEnd_toStartOf="@id/img_33"
+        app:layout_constraintStart_toEndOf="@id/img_11111" />
+
+    <ImageView
+        android:id="@+id/img_33"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/yyyy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_mechanicerfgt"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintStart_toEndOf="@id/img_2222" />
+
+
+    <TextView
+        android:id="@+id/tv_team_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8555F4"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_black"
+        android:padding="4dp"
+        android:text="leader 1"
+        android:textAllCaps="true"
+        android:textColor="#120125"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/img_el1"
+        app:layout_constraintStart_toStartOf="@id/img_el1"
+        app:layout_constraintTop_toBottomOf="@id/img_el1" />
+
+    <TextView
+        android:id="@+id/tv_team_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55DCF4"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_black"
+        android:padding="4dp"
+        android:text="leader 2"
+        android:textAllCaps="true"
+        android:textColor="#010F25"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/img_el2"
+        app:layout_constraintStart_toStartOf="@id/img_el2"
+        app:layout_constraintTop_toBottomOf="@id/img_el2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_85ddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_50fgrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_95gtgtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_05gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_50gtgtg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <ImageView
+        android:id="@+id/img_mechanicerfgt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/lllll"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_85ddd"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt" />
+
+    <TextView
+        android:id="@+id/juujjuujuj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:background="#556AF4"
+        android:fontFamily="@font/montserrat_black"
+        android:text=": Choose leader and get bonus"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@id/img_mechanicerfgt"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintStart_toEndOf="@id/img_mechanicerfgt"
+        app:layout_constraintTop_toTopOf="@id/img_mechanicerfgt" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

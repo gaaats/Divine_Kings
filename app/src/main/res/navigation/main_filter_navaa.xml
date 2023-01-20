@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_filter_navaa"
+    app:startDestination="@id/mainMainFragment">
+
+    <fragment
+        android:id="@+id/mainMainFragment"
+        android:name="com.ferrero.app.fraggm.MainMainFragment"
+        android:label="fragment_main_main"
+        tools:layout="@layout/fragment_main_main" >
+        <action
+            android:id="@+id/action_mainMainFragment_to_couuntryCountryFragment"
+            app:destination="@id/couuntryCountryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/couuntryCountryFragment"
+        android:name="com.ferrero.app.fraggm.CouuntryCountryFragment"
+        android:label="fragment_couuntry_country"
+        tools:layout="@layout/fragment_couuntry_country" >
+        <action
+            android:id="@+id/action_couuntryCountryFragment_to_secondSecondMainFragment"
+            app:destination="@id/secondSecondMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondSecondMainFragment"
+        android:name="com.ferrero.app.fraggm.SecondSecondMainFragment"
+        android:label="fragment_second_second_main"
+        tools:layout="@layout/fragment_second_second_main" >
+        <action
+            android:id="@+id/action_secondSecondMainFragment_to_prePreFilterFragment"
+            app:destination="@id/prePreFilterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prePreFilterFragment"
+        android:name="com.ferrero.app.fraggm.PrePreFilterFragment"
+        android:label="fragment_pre_pre_filter"
+        tools:layout="@layout/fragment_pre_pre_filter" >
+        <action
+            android:id="@+id/action_prePreFilterFragment_to_filterFilterFragment"
+            app:destination="@id/filterFilterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filterFilterFragment"
+        android:name="com.ferrero.app.fraggm.FilterFilterFragment"
+        android:label="fragment_filter_filter"
+        tools:layout="@layout/fragment_filter_filter" />
+</navigation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gamer_navaaa"
+    app:startDestination="@id/starrtttFragment">
+
+    <fragment
+        android:id="@+id/starrtttFragment"
+        android:name="com.ferrero.app.fraggm.StarrtttFragment"
+        android:label="fragment_starrttt"
+        tools:layout="@layout/fragment_starrttt" >
+        <action
+            android:id="@+id/action_starrtttFragment_to_fastFinishFragment"
+            app:destination="@id/fastFinishFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/starrtttFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fastFinishFragment"
+        android:name="com.ferrero.app.fraggm.FastFinishFragment"
+        android:label="fragment_fast_finish"
+        tools:layout="@layout/fragment_fast_finish" >
+        <action
+            android:id="@+id/action_fastFinishFragment_to_starrtttFragment"
+            app:destination="@id/starrtttFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/starrtttFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
